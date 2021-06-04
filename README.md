@@ -38,3 +38,16 @@
     F. Identity Operators ( is , is not )
 
     G. Membership Operators ( in , not in )
+
+
+# Day5 Agenda
+
+### Strings
+- Set of Characters
+- Sequence of characters
+- Strings are immutable
+- any sequence of characters either with in single or double quotes
+- A data type that stores a sequence of elements in character form.
+- String Slicing
+    - Indexing was only limited to accessing a single element, Slicing on the other hand is accessing a sequence of data inside the string.
+- String Methods
