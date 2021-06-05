@@ -55,8 +55,6 @@
 
 # Day6 Agenda
 
-![List-Operations-in-Python.png](List-Operations-in-Python.png)
-
 ***Data Structures***
 - Data structures refer to the collection or group of data in a particular structure.
 
