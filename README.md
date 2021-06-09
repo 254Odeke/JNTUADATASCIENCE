@@ -107,3 +107,47 @@ Lists are mutable, their contents can change as more statements are interpreted.
 |setdefault()|	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value|
 |update()|	Updates the dictionary with the specified key-value pairs|
 |values()|	Returns a list of all the values in the dictionary|
+
+
+# Day9 Agenda
+### Modules 
+
+* a module is a piece of software that has a specific functionality
+    - module makes the code easier to understand and use
+* Module in python is simply a python file with .py extension
+* The name of module will be the name of the file
+* Some of the Modules in python:
+    - math
+    - random
+    - Calendar
+    - Collections
+    - path
+    - sys
+    - pyttsx3
+    - builtins
+    - re 
+    
+### re
+- it can also be called as re,regex
+- A regular expression is a sequence of characters that match a pattern
+- its a symbolic represtation
+**Re Methods**
+    - Match()
+    - Search()
+    - Findall()
+   
+
+|character | Usecase |
+| -- | -- |
+| ^ |        matches the begining|
+| *  |       zero or more occurence|
+ | +   |      one or more occurence|
+| .    |     Matches any character except a newline.|
+ | {}    |    range set|
+| [a-zA-Z]|  alphbet range|
+|[0-9]    | digits|
+| | |       |or |
+|$         | matches the ending|
+    
+### Packages
+* A package is a collection of modules
