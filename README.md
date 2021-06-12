@@ -256,3 +256,12 @@ class Person:
 - Single level Inheritence
 - Multiple Inheritence
 - Multi level Inheritence
+
+## Single level Inheritence
+- when a child class inherit from only one parent class, we called as single level inheritence
+
+## Mutiple Inheritence
+- More than one parent class but only one child class
+
+## Multi level Inheritence
+- having Grand Parent, parent and child relationship
