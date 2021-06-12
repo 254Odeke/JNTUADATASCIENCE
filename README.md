@@ -152,3 +152,107 @@ Lists are mutable, their contents can change as more statements are interpreted.
     
 ### Packages
 * A package is a collection of modules
+
+
+
+
+# Day Objectives
+
+## OOP - Python
+* What is Object Oriented Programming?
+
+ *   To solve programming problem is by Creating Objects. This is known as OOPS
+    Object Oriented Programming (OOP) allows decomposition of a problem into a number of units called objects
+ *   Python, an Object Oriented programming (OOP), is a way of programming that focuses on using objects and classes to design and build applications.
+
+* Why to Choose ObjectOriented Programming?
+
+    * Python was designed with an object-oriented approach.
+
+    * OOP offers the following advantages:
+        Provides a clear program structure, which makes it easy to map real world problems and their solutions.
+        Facilitates easy maintenance and modification of existing code.
+     *  Imparts code reusability
+      
+***class***
+
+  *  Combination of both attributes and methods
+  *  A class is a way to take a grouping of functions and data and place them inside a container
+    Ex: Building and Templates
+
+* NOTE : Class attributes(variables) belong to the class itself they will be shared by all the instances.
+
+*  Attributes are variables of a class that are shared between all of its instances
+
+
+***object***
+
+  *  An object is physical entity
+  *  An object is an instance of a class. When class is defined, only the description for the object is defined. Therefore, no memory or storage is allocated.
+  * Every Object contrains 2 Characteristics
+      * State/Properties/Attributes
+      * Behaviour
+
+
+***method***
+
+ * A name given to a function which is defined inside a class.They are used to define the behaviors of an object
+
+#### Syntax for Class
+```python
+class ClassName:
+    pass
+ClassName()
+```
+
+# constructor
+* Used for instantiating an object.In python *__init__*(self) Method called as a constructor
+* It Works is to initialize(assign values) to the data members of a class when an object of a class is created.
+* Types of constructors
+    * Default constructor 
+    * Parameterized constructor 
+
+```Syntax of constructor declaration```
+
+```python
+class Person:
+    def __init__(self): # defualt method for every class
+```
+
+## Python Inheritance
+
+         * Inheritance enables us to define a class that takes all the functionality from a <br> 
+           parent class and allows us to add more
+         * It refers to defining a new class with little or no modification to an existing class
+         * New class is called derived (or child) class 
+         * One from which it inherits is called the base (or parent) class
+![inheritence.jpg](inheritence.jpg)
+#### The benefits of inheritance :
+         * It provides re-usability of a code ("REUSE")
+         * it allows us to add more features to a class without modifying it
+         * It is transitive in nature
+         * if class B inherits from another class A, then all the subclasses of B would automatically 
+           inherit from class A.
+                  
+
+![Inheritance-Example-1024x512.png](attachment:Inheritance-Example-1024x512.png)
+
+
+#### Advantages:
+    * Application development time is less.
+    * Application takes less memory.
+    * Application execution time is less.
+
+```Syntax```
+
+```python 
+    class superClass:
+        body of super class
+    class baseClass(superclass):
+        body of the base class
+```
+
+# Types of Inheritence
+- Single level Inheritence
+- Multiple Inheritence
+- Multi level Inheritence
